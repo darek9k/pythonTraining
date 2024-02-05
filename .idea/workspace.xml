@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="variables - valid names and illegal names">
-      <change afterPath="$PROJECT_DIR$/comparisonOperators.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/logicalOperators.py" afterDir="false" />
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="Comparison and logical operators mix">
+      <change afterPath="$PROJECT_DIR$/if_statement.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -54,25 +53,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.comparisonOperators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.converting.executor&quot;: &quot;Run&quot;,
-    &quot;Python.dataTypes.executor&quot;: &quot;Run&quot;,
-    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
-    &quot;Python.logicalOperators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.mathOperators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.variables.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.comparisonOperators.executor": "Run",
+    "Python.converting.executor": "Run",
+    "Python.dataTypes.executor": "Run",
+    "Python.hello.executor": "Run",
+    "Python.if_statement.executor": "Run",
+    "Python.logicalOperators.executor": "Run",
+    "Python.logical_operators.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.mathOperators.executor": "Run",
+    "Python.variables.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/Master/Desktop/pythonTraining/pythonProject"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -153,7 +155,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706899504521</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="some snake_case changes">
+      <option name="closed" value="true" />
+      <created>1707119120958</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1707119120958</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Comparison and logical operators mix">
+      <option name="closed" value="true" />
+      <created>1707119306930</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1707119306930</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -173,6 +191,8 @@
     <MESSAGE value="basic types of variables in Python" />
     <MESSAGE value="Basic mathematical operations" />
     <MESSAGE value="variables - valid names and illegal names" />
-    <option name="LAST_COMMIT_MESSAGE" value="variables - valid names and illegal names" />
+    <MESSAGE value="some snake_case changes" />
+    <MESSAGE value="Comparison and logical operators mix" />
+    <option name="LAST_COMMIT_MESSAGE" value="Comparison and logical operators mix" />
   </component>
 </project>
