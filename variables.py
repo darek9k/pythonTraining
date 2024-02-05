@@ -1,6 +1,6 @@
-firstNumber = 2
-secondNumber = 3
-result = firstNumber + secondNumber
+first_number = 2
+second_number = 3
+result = first_number + second_number
 print(result)
 
 name = 'Joe'
@@ -8,7 +8,7 @@ print('My names is ' + name)
 
 # variable names
 number = 1
-firstNumber1 = 1
+first_number1 = 1
 _number = 1
 NUMBER = 1
 Number = 1
