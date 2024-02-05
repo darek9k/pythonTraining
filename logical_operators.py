@@ -17,6 +17,10 @@ print(not True)
 print(not False)
 
 # comparison and logical operators
+print('Comparison and logical operators')
+print(not 2 > 0)
+print('Joe' == 'Joe' and 1 > 0)
+print(2 > 5 or 3 > 1)
 
 
 
