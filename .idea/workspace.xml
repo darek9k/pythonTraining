@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="List, Set, Dict, Tuple, Try -&gt; Except">
-      <change afterPath="$PROJECT_DIR$/message.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/reading_file.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/saving_to_file.py" afterDir="false" />
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="files: reading, writing">
+      <change afterPath="$PROJECT_DIR$/dog.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +62,7 @@
     "Python.converting.executor": "Run",
     "Python.dataTypes.executor": "Run",
     "Python.dict.executor": "Run",
+    "Python.dog.executor": "Run",
     "Python.for_loop.executor": "Run",
     "Python.hello.executor": "Run",
     "Python.if_statement.executor": "Run",
@@ -228,7 +227,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707208310068</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="files: reading, writing">
+      <option name="closed" value="true" />
+      <created>1707209456424</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1707209456424</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -255,6 +262,7 @@
     <MESSAGE value="Loops" />
     <MESSAGE value="methods, string, args, kwargs" />
     <MESSAGE value="List, Set, Dict, Tuple, Try -&gt; Except" />
-    <option name="LAST_COMMIT_MESSAGE" value="List, Set, Dict, Tuple, Try -&gt; Except" />
+    <MESSAGE value="files: reading, writing" />
+    <option name="LAST_COMMIT_MESSAGE" value="files: reading, writing" />
   </component>
 </project>
