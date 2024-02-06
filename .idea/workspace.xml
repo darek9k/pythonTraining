@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="methods, string, args, kwargs">
-      <change afterPath="$PROJECT_DIR$/dict.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/list.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sets.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/try_except.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tuple.py" afterDir="false" />
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="List, Set, Dict, Tuple, Try -&gt; Except">
+      <change afterPath="$PROJECT_DIR$/message.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/reading_file.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/saving_to_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,6 +73,8 @@
     "Python.main.executor": "Run",
     "Python.mathOperators.executor": "Run",
     "Python.methods.executor": "Run",
+    "Python.reading_file.executor": "Run",
+    "Python.saving_to_file.executor": "Run",
     "Python.scope.executor": "Run",
     "Python.sets.executor": "Run",
     "Python.string_methods.executor": "Run",
@@ -220,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707141084545</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="List, Set, Dict, Tuple, Try -&gt; Except">
+      <option name="closed" value="true" />
+      <created>1707208310068</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707208310068</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -246,6 +254,7 @@
     <MESSAGE value="characteristic indentations" />
     <MESSAGE value="Loops" />
     <MESSAGE value="methods, string, args, kwargs" />
-    <option name="LAST_COMMIT_MESSAGE" value="methods, string, args, kwargs" />
+    <MESSAGE value="List, Set, Dict, Tuple, Try -&gt; Except" />
+    <option name="LAST_COMMIT_MESSAGE" value="List, Set, Dict, Tuple, Try -&gt; Except" />
   </component>
 </project>
