@@ -4,11 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="characteristic indentations">
-      <change afterPath="$PROJECT_DIR$/for_loop.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/while_loop.py" afterDir="false" />
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="methods, string, args, kwargs">
+      <change afterPath="$PROJECT_DIR$/dict.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/list.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sets.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/try_except.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tuple.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/if_statement.py" beforeDir="false" afterPath="$PROJECT_DIR$/if_statement.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,16 +59,27 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.adding_numbers.executor": "Run",
+    "Python.args.executor": "Run",
+    "Python.calculator.executor": "Run",
     "Python.comparisonOperators.executor": "Run",
     "Python.converting.executor": "Run",
     "Python.dataTypes.executor": "Run",
+    "Python.dict.executor": "Run",
     "Python.for_loop.executor": "Run",
     "Python.hello.executor": "Run",
     "Python.if_statement.executor": "Run",
+    "Python.list.executor": "Run",
     "Python.logicalOperators.executor": "Run",
     "Python.logical_operators.executor": "Run",
     "Python.main.executor": "Run",
     "Python.mathOperators.executor": "Run",
+    "Python.methods.executor": "Run",
+    "Python.scope.executor": "Run",
+    "Python.sets.executor": "Run",
+    "Python.string_methods.executor": "Run",
+    "Python.tuple.executor": "Run",
+    "Python.typle.executor": "Run",
     "Python.variables.executor": "Run",
     "Python.while_loop.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -191,7 +204,23 @@
       <option name="project" value="LOCAL" />
       <updated>1707121018479</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Loops">
+      <option name="closed" value="true" />
+      <created>1707123101927</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1707123101927</updated>
+    </task>
+    <task id="LOCAL-00011" summary="methods, string, args, kwargs">
+      <option name="closed" value="true" />
+      <created>1707141084545</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1707141084545</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -215,6 +244,8 @@
     <MESSAGE value="Comparison and logical operators mix" />
     <MESSAGE value="simple if_statement" />
     <MESSAGE value="characteristic indentations" />
-    <option name="LAST_COMMIT_MESSAGE" value="characteristic indentations" />
+    <MESSAGE value="Loops" />
+    <MESSAGE value="methods, string, args, kwargs" />
+    <option name="LAST_COMMIT_MESSAGE" value="methods, string, args, kwargs" />
   </component>
 </project>
