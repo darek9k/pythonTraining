@@ -4,11 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="Inheritance">
-      <change afterPath="$PROJECT_DIR$/random_generator.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_check.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/weather_control.py" afterDir="false" />
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="imports">
+      <change afterPath="$PROJECT_DIR$/demo_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/args.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/calculator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comments.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/comparison_operators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/converting.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/data_types.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dict.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dog.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/for_loop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/if_statement.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/inheritance.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/list.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/logical_operators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/math_operators.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/message.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/methods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/random_generator.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/reading_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/saving_to_file.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/scope.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/sets.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/string_methods.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/try_except.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tuple.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/variables.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_check.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/weather_control.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/while_loop.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,12 +84,14 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Python.GoogleSearchTest.executor": "Run",
     "Python.adding_numbers.executor": "Run",
     "Python.args.executor": "Run",
     "Python.calculator.executor": "Run",
     "Python.comparisonOperators.executor": "Run",
     "Python.converting.executor": "Run",
     "Python.dataTypes.executor": "Run",
+    "Python.demo_test.executor": "Run",
     "Python.dict.executor": "Run",
     "Python.dog.executor": "Run",
     "Python.for_loop.executor": "Run",
@@ -97,6 +126,15 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject\drivers" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject\drivers" />
+      <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
@@ -257,7 +295,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707221380220</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="imports">
+      <option name="closed" value="true" />
+      <created>1707223607696</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1707223607696</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -287,6 +333,7 @@
     <MESSAGE value="files: reading, writing" />
     <MESSAGE value="classes and methods" />
     <MESSAGE value="Inheritance" />
-    <option name="LAST_COMMIT_MESSAGE" value="Inheritance" />
+    <MESSAGE value="imports" />
+    <option name="LAST_COMMIT_MESSAGE" value="imports" />
   </component>
 </project>
