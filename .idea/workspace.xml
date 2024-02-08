@@ -5,37 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="imports">
-      <change afterPath="$PROJECT_DIR$/demo_test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/args.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/calculator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/comments.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/comparison_operators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/converting.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/data_types.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dict.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/dog.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/for_loop.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/if_statement.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inheritance.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/list.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/logical_operators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/math_operators.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/message.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/methods.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/random_generator.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/reading_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/saving_to_file.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/scope.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sets.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/string_methods.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/try_except.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tuple.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/variables.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather_check.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/weather_control.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/while_loop.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/demo_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
