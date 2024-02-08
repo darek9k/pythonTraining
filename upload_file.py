@@ -1,3 +1,5 @@
+import os
+
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
 from selenium.webdriver.common.by import By
@@ -7,9 +9,9 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
 
-driver.get("https://w3schools.com")
+driver.get("file:///C:/Users/Master/Desktop/forPythonTests/FileUpload.html")
 
-driver.find_element(By.ID, "accept-choices").click()
+upload_input = driver.find_element(By.ID, "myFile")
+path = os.path.abspath("upload.txt")
 
-tutorials_element = driver.find_element(By.XPATH, "//*[@id='subtopnav']/a[1]")
-webdriver.ActionChains(driver).move_to_element(tutorials_element).click(tutorials_element).perform()
+upload_input.send_keys(path)

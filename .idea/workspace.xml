@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="hover">
-      <change afterPath="$PROJECT_DIR$/drag_and_drop.py" afterDir="false" />
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="drag_and_drop">
+      <change afterPath="$PROJECT_DIR$/upload_file.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hover.py" beforeDir="false" afterPath="$PROJECT_DIR$/hover.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -393,7 +394,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707395461387</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="drag_and_drop">
+      <option name="closed" value="true" />
+      <created>1707395834043</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1707395834043</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -408,7 +417,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="variables - valid names and illegal names" />
     <MESSAGE value="some snake_case changes" />
     <MESSAGE value="Comparison and logical operators mix" />
     <MESSAGE value="simple if_statement" />
@@ -433,7 +441,8 @@
     <MESSAGE value="double_click" />
     <MESSAGE value="clear input" />
     <MESSAGE value="hover" />
-    <option name="LAST_COMMIT_MESSAGE" value="hover" />
+    <MESSAGE value="drag_and_drop" />
+    <option name="LAST_COMMIT_MESSAGE" value="drag_and_drop" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
