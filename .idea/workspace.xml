@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="action of clicking on an element">
-      <change afterPath="$PROJECT_DIR$/handling_alerts.py" afterDir="false" />
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="handling_alerts">
+      <change afterPath="$PROJECT_DIR$/filling_input.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,6 +65,7 @@
     "Python.demo_test.executor": "Run",
     "Python.dict.executor": "Run",
     "Python.dog.executor": "Run",
+    "Python.filling_input.executor": "Run",
     "Python.for_loop.executor": "Run",
     "Python.handling_alerts.executor": "Run",
     "Python.hello.executor": "Run",
@@ -291,7 +292,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707380156605</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="handling_alerts">
+      <option name="closed" value="true" />
+      <created>1707380608900</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1707380608900</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -324,6 +333,7 @@
     <MESSAGE value="imports" />
     <MESSAGE value="find_element and elements - basics" />
     <MESSAGE value="action of clicking on an element" />
-    <option name="LAST_COMMIT_MESSAGE" value="action of clicking on an element" />
+    <MESSAGE value="handling_alerts" />
+    <option name="LAST_COMMIT_MESSAGE" value="handling_alerts" />
   </component>
 </project>
