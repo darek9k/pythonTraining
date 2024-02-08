@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="selecting_select">
-      <change afterPath="$PROJECT_DIR$/checkbox_radio_button.py" afterDir="false" />
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="checkbox and radio button">
+      <change afterPath="$PROJECT_DIR$/checking_image.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/text_element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +63,7 @@
     "Python.calculator.executor": "Run",
     "Python.checkbox.executor": "Run",
     "Python.checkbox_radio_button.executor": "Run",
+    "Python.checking_image.executor": "Run",
     "Python.comparisonOperators.executor": "Run",
     "Python.converting.executor": "Run",
     "Python.dataTypes.executor": "Run",
@@ -86,6 +89,7 @@
     "Python.selecting_select.executor": "Run",
     "Python.sets.executor": "Run",
     "Python.string_methods.executor": "Run",
+    "Python.text_element.executor": "Run",
     "Python.tuple.executor": "Run",
     "Python.typle.executor": "Run",
     "Python.variables.executor": "Run",
@@ -319,7 +323,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707381633829</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="checkbox and radio button">
+      <option name="closed" value="true" />
+      <created>1707381942498</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1707381942498</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,7 +367,8 @@
     <MESSAGE value="handling_alerts" />
     <MESSAGE value="input and sending ENTER" />
     <MESSAGE value="selecting_select" />
-    <option name="LAST_COMMIT_MESSAGE" value="selecting_select" />
+    <MESSAGE value="checkbox and radio button" />
+    <option name="LAST_COMMIT_MESSAGE" value="checkbox and radio button" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
