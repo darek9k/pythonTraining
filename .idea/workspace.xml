@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="js_operations">
-      <change afterPath="$PROJECT_DIR$/double_click.py" afterDir="false" />
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="double_click">
+      <change afterPath="$PROJECT_DIR$/clear_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +63,7 @@
     "Python.checkbox.executor": "Run",
     "Python.checkbox_radio_button.executor": "Run",
     "Python.checking_image.executor": "Run",
+    "Python.clear_input.executor": "Run",
     "Python.comparisonOperators.executor": "Run",
     "Python.converting.executor": "Run",
     "Python.dataTypes.executor": "Run",
@@ -364,7 +366,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707392970165</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="double_click">
+      <option name="closed" value="true" />
+      <created>1707393221713</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1707393221713</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -379,7 +389,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="How to write comments in code." />
     <MESSAGE value="basic types of variables in Python" />
     <MESSAGE value="Basic mathematical operations" />
     <MESSAGE value="variables - valid names and illegal names" />
@@ -404,7 +413,8 @@
     <MESSAGE value="support for the newly opened website" />
     <MESSAGE value="iframe" />
     <MESSAGE value="js_operations" />
-    <option name="LAST_COMMIT_MESSAGE" value="js_operations" />
+    <MESSAGE value="double_click" />
+    <option name="LAST_COMMIT_MESSAGE" value="double_click" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
