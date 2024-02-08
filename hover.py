@@ -7,10 +7,9 @@ options = webdriver.ChromeOptions()
 options.add_experimental_option("detach", True)
 driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
 
-driver.get("file:///C:/Users/Master/Desktop/forPythonTests/DoubleClick.html")
+driver.get("https://w3schools.com")
 
-button = driver.find_element(By.ID, "bottom")
+driver.find_element(By.ID, "accept-choices").click()
 
-# webdriver.ActionChains(driver).double_click(button).perform()
-
-webdriver.ActionChains(driver).context_click(button).perform()
+tutorials_element = driver.find_element(By.XPATH, "//*[@id='subtopnav']/a[1]")
+webdriver.ActionChains(driver).move_to_element(tutorials_element).perform()
