@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="drag_and_drop">
-      <change afterPath="$PROJECT_DIR$/upload_file.py" afterDir="false" />
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="upload_file">
+      <change afterPath="$PROJECT_DIR$/element_displayed.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/element_enabled.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/element_exist.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/element_selected.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/hover.py" beforeDir="false" afterPath="$PROJECT_DIR$/hover.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/upload_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,6 +45,20 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "darek9k"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="119ca3da-c473-405c-8215-d1cbbbb26c1a" />
+        <option name="url" value="https://github.com/darek9k/pythonTraining.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
@@ -73,6 +90,9 @@
     "Python.dog.executor": "Run",
     "Python.double_click.executor": "Run",
     "Python.drag_and_drop.executor": "Run",
+    "Python.element_displayed.executor": "Run",
+    "Python.element_enabled.executor": "Run",
+    "Python.element_exist.executor": "Run",
     "Python.filling_input.executor": "Run",
     "Python.for_loop.executor": "Run",
     "Python.fram_test.executor": "Run",
@@ -99,12 +119,13 @@
     "Python.text_element.executor": "Run",
     "Python.tuple.executor": "Run",
     "Python.typle.executor": "Run",
+    "Python.upload_file.executor": "Run",
     "Python.variables.executor": "Run",
     "Python.weather_check.executor": "Run",
     "Python.while_loop.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Master/Desktop/pythonTraining/zapisaniSeleniumPython",
+    "last_opened_file_path": "C:/Users/Master/Desktop/pythonTraining/pythonProject",
     "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   },
   "keyToStringList": {
@@ -115,6 +136,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject" />
       <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject\drivers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -402,7 +424,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707395834043</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="upload_file">
+      <option name="closed" value="true" />
+      <created>1707397357984</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1707397357984</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -417,7 +447,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="some snake_case changes" />
     <MESSAGE value="Comparison and logical operators mix" />
     <MESSAGE value="simple if_statement" />
     <MESSAGE value="characteristic indentations" />
@@ -442,7 +471,8 @@
     <MESSAGE value="clear input" />
     <MESSAGE value="hover" />
     <MESSAGE value="drag_and_drop" />
-    <option name="LAST_COMMIT_MESSAGE" value="drag_and_drop" />
+    <MESSAGE value="upload_file" />
+    <option name="LAST_COMMIT_MESSAGE" value="upload_file" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
