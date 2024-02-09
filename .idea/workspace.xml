@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="selenium_tests">
-      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" />
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="kurs-selenium/demo - making reservations + asserting hotel prices">
+      <change afterPath="$PROJECT_DIR$/page_object_pattern/pages/search_hotel.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium_tests/search_hotel_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_tests/search_hotel_test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,74 +67,74 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.pytest in pytest_project.executor": "Run",
-    "Python.GoogleSearchTest.executor": "Run",
-    "Python.actions_on_elements.executor": "Run",
-    "Python.adding_numbers.executor": "Run",
-    "Python.args.executor": "Run",
-    "Python.calculator.executor": "Run",
-    "Python.checkbox.executor": "Run",
-    "Python.checkbox_radio_button.executor": "Run",
-    "Python.checking_image.executor": "Run",
-    "Python.clear_input.executor": "Run",
-    "Python.comparisonOperators.executor": "Run",
-    "Python.converting.executor": "Run",
-    "Python.dataTypes.executor": "Run",
-    "Python.demo_test.executor": "Run",
-    "Python.dict.executor": "Run",
-    "Python.dog.executor": "Run",
-    "Python.double_click.executor": "Run",
-    "Python.drag_and_drop.executor": "Run",
-    "Python.element_displayed.executor": "Run",
-    "Python.element_enabled.executor": "Run",
-    "Python.element_exist.executor": "Run",
-    "Python.element_selected.executor": "Run",
-    "Python.filling_input.executor": "Run",
-    "Python.for_loop.executor": "Run",
-    "Python.fram_test.executor": "Run",
-    "Python.handling_alerts.executor": "Run",
-    "Python.hello.executor": "Run",
-    "Python.hover.executor": "Run",
-    "Python.if_statement.executor": "Run",
-    "Python.inheritance.executor": "Run",
-    "Python.js_operations.executor": "Run",
-    "Python.list.executor": "Run",
-    "Python.logicalOperators.executor": "Run",
-    "Python.logical_operators.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.mathOperators.executor": "Run",
-    "Python.methods.executor": "Run",
-    "Python.new_page.executor": "Run",
-    "Python.random_generator.executor": "Run",
-    "Python.reading_file.executor": "Run",
-    "Python.saving_to_file.executor": "Run",
-    "Python.scope.executor": "Run",
-    "Python.search_hotel_test.executor": "Run",
-    "Python.selecting_select.executor": "Run",
-    "Python.sets.executor": "Run",
-    "Python.sleep.executor": "Run",
-    "Python.string_methods.executor": "Run",
-    "Python.text_element.executor": "Run",
-    "Python.tuple.executor": "Run",
-    "Python.typle.executor": "Run",
-    "Python.upload_file.executor": "Run",
-    "Python.variables.executor": "Run",
-    "Python.weather_check.executor": "Run",
-    "Python.while_loop.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Master/Desktop/pythonTraining/pythonProject/pytest_project",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.pytest in pytest_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GoogleSearchTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.actions_on_elements.executor&quot;: &quot;Run&quot;,
+    &quot;Python.adding_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.args.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.checkbox.executor&quot;: &quot;Run&quot;,
+    &quot;Python.checkbox_radio_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python.checking_image.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clear_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.comparisonOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.converting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataTypes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dog.executor&quot;: &quot;Run&quot;,
+    &quot;Python.double_click.executor&quot;: &quot;Run&quot;,
+    &quot;Python.drag_and_drop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.element_displayed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.element_enabled.executor&quot;: &quot;Run&quot;,
+    &quot;Python.element_exist.executor&quot;: &quot;Run&quot;,
+    &quot;Python.element_selected.executor&quot;: &quot;Run&quot;,
+    &quot;Python.filling_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_loop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fram_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.handling_alerts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hover.executor&quot;: &quot;Run&quot;,
+    &quot;Python.if_statement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.js_operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logicalOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logical_operators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mathOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.new_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reading_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.saving_to_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scope.executor&quot;: &quot;Run&quot;,
+    &quot;Python.search_hotel_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selecting_select.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sleep.executor&quot;: &quot;Run&quot;,
+    &quot;Python.string_methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.text_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.typle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.upload_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.variables.executor&quot;: &quot;Run&quot;,
+    &quot;Python.weather_check.executor&quot;: &quot;Run&quot;,
+    &quot;Python.while_loop.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Master/Desktop/pythonTraining/pythonProject/pytest_project&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject\pytest_project" />
@@ -149,7 +148,7 @@
       <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -506,7 +505,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707464473516</updated>
     </task>
-    <option name="localTasksCounter" value="35" />
+    <task id="LOCAL-00035" summary="kurs-selenium/demo - making reservations + asserting hotel prices">
+      <option name="closed" value="true" />
+      <created>1707492039251</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1707492039251</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -521,7 +528,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Loops" />
     <MESSAGE value="methods, string, args, kwargs" />
     <MESSAGE value="List, Set, Dict, Tuple, Try -&gt; Except" />
     <MESSAGE value="files: reading, writing" />
@@ -546,7 +552,8 @@
     <MESSAGE value="checking elements on the page, enabled, disabled, displayed, exist, selected," />
     <MESSAGE value="waiting strategies" />
     <MESSAGE value="selenium_tests" />
-    <option name="LAST_COMMIT_MESSAGE" value="selenium_tests" />
+    <MESSAGE value="kurs-selenium/demo - making reservations + asserting hotel prices" />
+    <option name="LAST_COMMIT_MESSAGE" value="kurs-selenium/demo - making reservations + asserting hotel prices" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
