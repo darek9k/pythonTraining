@@ -5,13 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="waiting strategies">
-      <change afterPath="$PROJECT_DIR$/pytest_project/addition_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest_project/random_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest_project/random_name_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest_project/test_demo_page.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest_project/test_pytest.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pytest_project/test_pytest2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/actions_on_elements.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/actions_on_elements.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checkbox_radio_button.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/checkbox_radio_button.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/checking_image.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/checking_image.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/clear_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/clear_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/demo_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/double_click.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/double_click.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/drag_and_drop.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/drag_and_drop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/element_displayed.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/element_displayed.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/element_enabled.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/element_enabled.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/element_exist.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/element_exist.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/element_selected.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/element_selected.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/filling_input.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/filling_input.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/frame_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handling_alerts.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/handling_alerts.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hover.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/hover.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js_operations.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/js_operations.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/new_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/new_page.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selecting_select.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/selecting_select.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sleep.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/sleep.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/text_element.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/text_element.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload.txt" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/upload.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/upload_file.py" beforeDir="false" afterPath="$PROJECT_DIR$/selenium_training/upload_file.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,71 +88,73 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.GoogleSearchTest.executor": "Run",
-    "Python.actions_on_elements.executor": "Run",
-    "Python.adding_numbers.executor": "Run",
-    "Python.args.executor": "Run",
-    "Python.calculator.executor": "Run",
-    "Python.checkbox.executor": "Run",
-    "Python.checkbox_radio_button.executor": "Run",
-    "Python.checking_image.executor": "Run",
-    "Python.clear_input.executor": "Run",
-    "Python.comparisonOperators.executor": "Run",
-    "Python.converting.executor": "Run",
-    "Python.dataTypes.executor": "Run",
-    "Python.demo_test.executor": "Run",
-    "Python.dict.executor": "Run",
-    "Python.dog.executor": "Run",
-    "Python.double_click.executor": "Run",
-    "Python.drag_and_drop.executor": "Run",
-    "Python.element_displayed.executor": "Run",
-    "Python.element_enabled.executor": "Run",
-    "Python.element_exist.executor": "Run",
-    "Python.element_selected.executor": "Run",
-    "Python.filling_input.executor": "Run",
-    "Python.for_loop.executor": "Run",
-    "Python.fram_test.executor": "Run",
-    "Python.handling_alerts.executor": "Run",
-    "Python.hello.executor": "Run",
-    "Python.hover.executor": "Run",
-    "Python.if_statement.executor": "Run",
-    "Python.inheritance.executor": "Run",
-    "Python.js_operations.executor": "Run",
-    "Python.list.executor": "Run",
-    "Python.logicalOperators.executor": "Run",
-    "Python.logical_operators.executor": "Run",
-    "Python.main.executor": "Run",
-    "Python.mathOperators.executor": "Run",
-    "Python.methods.executor": "Run",
-    "Python.new_page.executor": "Run",
-    "Python.random_generator.executor": "Run",
-    "Python.reading_file.executor": "Run",
-    "Python.saving_to_file.executor": "Run",
-    "Python.scope.executor": "Run",
-    "Python.selecting_select.executor": "Run",
-    "Python.sets.executor": "Run",
-    "Python.sleep.executor": "Run",
-    "Python.string_methods.executor": "Run",
-    "Python.text_element.executor": "Run",
-    "Python.tuple.executor": "Run",
-    "Python.typle.executor": "Run",
-    "Python.upload_file.executor": "Run",
-    "Python.variables.executor": "Run",
-    "Python.weather_check.executor": "Run",
-    "Python.while_loop.executor": "Run",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/Master/Desktop/pythonTraining/pythonProject/pytest_project",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.pytest in pytest_project.executor&quot;: &quot;Run&quot;,
+    &quot;Python.GoogleSearchTest.executor&quot;: &quot;Run&quot;,
+    &quot;Python.actions_on_elements.executor&quot;: &quot;Run&quot;,
+    &quot;Python.adding_numbers.executor&quot;: &quot;Run&quot;,
+    &quot;Python.args.executor&quot;: &quot;Run&quot;,
+    &quot;Python.calculator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.checkbox.executor&quot;: &quot;Run&quot;,
+    &quot;Python.checkbox_radio_button.executor&quot;: &quot;Run&quot;,
+    &quot;Python.checking_image.executor&quot;: &quot;Run&quot;,
+    &quot;Python.clear_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.comparisonOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.converting.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dataTypes.executor&quot;: &quot;Run&quot;,
+    &quot;Python.demo_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dict.executor&quot;: &quot;Run&quot;,
+    &quot;Python.dog.executor&quot;: &quot;Run&quot;,
+    &quot;Python.double_click.executor&quot;: &quot;Run&quot;,
+    &quot;Python.drag_and_drop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.element_displayed.executor&quot;: &quot;Run&quot;,
+    &quot;Python.element_enabled.executor&quot;: &quot;Run&quot;,
+    &quot;Python.element_exist.executor&quot;: &quot;Run&quot;,
+    &quot;Python.element_selected.executor&quot;: &quot;Run&quot;,
+    &quot;Python.filling_input.executor&quot;: &quot;Run&quot;,
+    &quot;Python.for_loop.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fram_test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.handling_alerts.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hello.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hover.executor&quot;: &quot;Run&quot;,
+    &quot;Python.if_statement.executor&quot;: &quot;Run&quot;,
+    &quot;Python.inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.js_operations.executor&quot;: &quot;Run&quot;,
+    &quot;Python.list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logicalOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.logical_operators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mathOperators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.new_page.executor&quot;: &quot;Run&quot;,
+    &quot;Python.random_generator.executor&quot;: &quot;Run&quot;,
+    &quot;Python.reading_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.saving_to_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.scope.executor&quot;: &quot;Run&quot;,
+    &quot;Python.selecting_select.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sets.executor&quot;: &quot;Run&quot;,
+    &quot;Python.sleep.executor&quot;: &quot;Run&quot;,
+    &quot;Python.string_methods.executor&quot;: &quot;Run&quot;,
+    &quot;Python.text_element.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tuple.executor&quot;: &quot;Run&quot;,
+    &quot;Python.typle.executor&quot;: &quot;Run&quot;,
+    &quot;Python.upload_file.executor&quot;: &quot;Run&quot;,
+    &quot;Python.variables.executor&quot;: &quot;Run&quot;,
+    &quot;Python.weather_check.executor&quot;: &quot;Run&quot;,
+    &quot;Python.while_loop.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Master/Desktop/pythonTraining/pythonProject/pytest_project&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject\pytest_project" />
@@ -144,6 +162,7 @@
       <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject\drivers" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject\selenium_training" />
       <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject\pytest_project" />
       <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject\drivers" />
       <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject" />
@@ -185,7 +204,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/sleep.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\Master\Desktop\pythonTraining\pythonProject\selenium_training\sleep.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
