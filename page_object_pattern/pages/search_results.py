@@ -1,5 +1,7 @@
 import logging
 
+import allure
+from allure_commons.types import AttachmentType
 from selenium.webdriver.common.by import By
 
 
@@ -11,10 +13,12 @@ class SearchResultPage:
         self.hotel_names_xpath = "//h4[contains(@class,'RTL')]//b"
         self.hotel_prices_xpath = "//div[contains(@class,'price_tab')]//b"
 
+    @allure.step("Checking results")
     def get_hotel_names(self):
         hotels = self.driver.find_elements(By.XPATH, self.hotel_names_xpath)
         names = [hotel.get_attribute("textContent") for hotel in hotels]
         self.logger.info("Available hotels are: ")
+        allure.attach(self.driver.get_screenshot_as_png(), name="Results", attachment_type=AttachmentType.PNG)
         for name in names:
             self.logger.info(name)
         return names

@@ -1,3 +1,4 @@
+import allure
 import pytest
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service as ChromeService
@@ -19,7 +20,8 @@ class TestHotelSearch:
         yield
         self.driver.quit()
 
-    @pytest.mark.test_hotel_search
+    @allure.title("Test Hotel Search")
+    @allure.description("Test description")
     def test_hotel_search(self, setup):
         self.driver.get("http://www.kurs-selenium.pl/demo/")
         search_hotel_page = SearchHotelPage(self.driver)
