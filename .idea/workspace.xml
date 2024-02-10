@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="kurs-selenium/demo - making reservations + asserting hotel prices">
-      <change afterPath="$PROJECT_DIR$/page_object_pattern/pages/search_hotel.py" afterDir="false" />
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="first Page Object">
+      <change afterPath="$PROJECT_DIR$/page_object_pattern/pages/search_results.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -513,7 +513,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707492039251</updated>
     </task>
-    <option name="localTasksCounter" value="36" />
+    <task id="LOCAL-00036" summary="first Page Object">
+      <option name="closed" value="true" />
+      <created>1707495436196</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1707495436196</updated>
+    </task>
+    <option name="localTasksCounter" value="37" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -528,7 +536,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="methods, string, args, kwargs" />
     <MESSAGE value="List, Set, Dict, Tuple, Try -&gt; Except" />
     <MESSAGE value="files: reading, writing" />
     <MESSAGE value="classes and methods" />
@@ -553,7 +560,8 @@
     <MESSAGE value="waiting strategies" />
     <MESSAGE value="selenium_tests" />
     <MESSAGE value="kurs-selenium/demo - making reservations + asserting hotel prices" />
-    <option name="LAST_COMMIT_MESSAGE" value="kurs-selenium/demo - making reservations + asserting hotel prices" />
+    <MESSAGE value="first Page Object" />
+    <option name="LAST_COMMIT_MESSAGE" value="first Page Object" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
