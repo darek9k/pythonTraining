@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="allure - full report, logs, screenshots, spec">
-      <change afterPath="$PROJECT_DIR$/page_object_pattern/tests/base_test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/page_object_pattern/tests/test_hotel_search2.py" afterDir="false" />
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="sharing setup method - parent class/inheritance">
+      <change afterPath="$PROJECT_DIR$/page_object_pattern/tests/conftest.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object_pattern/tests/base_test.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/page_object_pattern/tests/test_hotel_search.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_pattern/tests/test_hotel_search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/page_object_pattern/tests/test_hotel_search2.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_pattern/tests/test_hotel_search2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +78,7 @@
     "Python tests.Python tests in test_hotel_search.py.executor": "Run",
     "Python tests.pytest for test_hotel_search2.TestHotelSearch.executor": "Run",
     "Python tests.pytest in pytest_project.executor": "Run",
+    "Python tests.pytest in tests.executor": "Run",
     "Python.GoogleSearchTest.executor": "Run",
     "Python.actions_on_elements.executor": "Run",
     "Python.adding_numbers.executor": "Run",
@@ -156,7 +158,7 @@
       <recent name="C:\Users\Master\Desktop\pythonTraining\pythonProject\pytest_project" />
     </key>
   </component>
-  <component name="RunManager" selected="Python tests.pytest for test_hotel_search2.TestHotelSearch">
+  <component name="RunManager" selected="Python tests.pytest in tests">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
       <module name="pythonProject" />
       <option name="ENV_FILES" value="" />
@@ -177,21 +179,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Python tests for page_object_pattern.tests.test_hotel_search.TestHotelSearch" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_object_/tests" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;page_object_pattern.tests.test_hotel_search.TestHotelSearch&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <configuration name="Python tests for page_object_pattern.tests.test_hotel_search.TestHotelSearch.test_hotel_search" type="tests" factoryName="Autodetect" temporary="true" nameIsGenerated="true">
@@ -256,13 +243,30 @@
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
+    <configuration name="pytest in tests" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="pythonProject" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/page_object_pattern/tests" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_parameters" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/page_object_pattern/tests&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python tests.pytest in tests" />
         <item itemvalue="Python tests.pytest for test_hotel_search2.TestHotelSearch" />
         <item itemvalue="Python tests.Python tests for test_hotel_search.TestHotelSearch" />
         <item itemvalue="Python tests.Python tests for test_hotel_search.TestHotelSearch.test_hotel_search" />
         <item itemvalue="Python tests.Python tests for page_object_pattern.tests.test_hotel_search.TestHotelSearch.test_hotel_search" />
-        <item itemvalue="Python tests.Python tests for page_object_pattern.tests.test_hotel_search.TestHotelSearch" />
       </list>
     </recent_temporary>
   </component>
@@ -618,7 +622,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707578251799</updated>
     </task>
-    <option name="localTasksCounter" value="43" />
+    <task id="LOCAL-00043" summary="sharing setup method - parent class/inheritance">
+      <option name="closed" value="true" />
+      <created>1707584773362</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1707584773362</updated>
+    </task>
+    <option name="localTasksCounter" value="44" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -633,7 +645,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="action of clicking on an element" />
     <MESSAGE value="handling_alerts" />
     <MESSAGE value="input and sending ENTER" />
     <MESSAGE value="selecting_select" />
@@ -658,7 +669,8 @@
     <MESSAGE value="loggern" />
     <MESSAGE value="allure - basics" />
     <MESSAGE value="allure - full report, logs, screenshots, spec" />
-    <option name="LAST_COMMIT_MESSAGE" value="allure - full report, logs, screenshots, spec" />
+    <MESSAGE value="sharing setup method - parent class/inheritance" />
+    <option name="LAST_COMMIT_MESSAGE" value="sharing setup method - parent class/inheritance" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

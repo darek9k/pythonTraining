@@ -3,11 +3,10 @@ import pytest
 
 from page_object_pattern.pages.search_hotel import SearchHotelPage
 from page_object_pattern.pages.search_results import SearchResultPage
-from page_object_pattern.tests.base_test import BaseTest
 
 
 @pytest.mark.usefixtures("setup")
-class TestHotelSearch(BaseTest):
+class TestHotelSearch:
 
     @allure.title("Test Hotel Search")
     @allure.description("Test description")
