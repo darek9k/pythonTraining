@@ -24,7 +24,7 @@ driver.find_element(By.ID, "childInput").send_keys("4")
 driver.find_element(By.ID, "travellersInput").click()
 driver.find_element(By.XPATH, "//button[text()=' Search']").click()
 
-hotels = driver.find_elements(By.XPATH, "//h4[contains(@class,'list_title')]//b")
+hotels = driver.find_elements(By.XPATH, "//h4[contains(@class,'RTL')]//b")
 hotel_names = [hotel.get_attribute("textContent") for hotel in hotels]
 for name in hotel_names:
     print("Hotel name: " + name)
