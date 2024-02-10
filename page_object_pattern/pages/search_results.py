@@ -5,7 +5,7 @@ class SearchResultPage:
 
     def __init__(self, driver):
         self.driver = driver
-        self.hotel_names_xpath = "//h4[contains(@class,'list_title')]//b"
+        self.hotel_names_xpath = "//h4[contains(@class,'RTL')]//b"
         self.hotel_prices_xpath = "//div[contains(@class,'price_tab')]//b"
 
     def get_hotel_names(self):
