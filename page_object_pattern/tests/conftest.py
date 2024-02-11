@@ -1,17 +1,18 @@
+import allure
 import pytest
-from selenium import webdriver
-from selenium.webdriver.chrome.service import Service as ChromeService
-from webdriver_manager.chrome import ChromeDriverManager
+from allure_commons.types import AttachmentType
+
+from page_object_pattern.utils.driver_factory import DriverFactory
 
 
 @pytest.fixture()
 def setup(request):
-    options = webdriver.ChromeOptions()
-    options.add_experimental_option("detach", True)
-    driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
+    driver = DriverFactory.get_driver("chrome")
     driver.implicitly_wait(10)
-    driver.maximize_window()
     # driver field defined
     request.cls.driver = driver
+    before_failed = request.session.testsfailed
     yield
+    if request.session.testsfailed != before_failed:
+        allure.attach(driver.get_screenshot_as_png(), name="Test failed", attachment_type=AttachmentType.PNG)
     driver.quit()
