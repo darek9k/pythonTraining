@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="alternative method of passing the setup method - using conftest">
+    <list default="true" id="42d5c7de-faf2-49be-931a-e232de409788" name="Changes" comment="testsfailed screenshot">
+      <change afterPath="$PROJECT_DIR$/page_object_pattern/utils/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/page_object_pattern/utils/driver_factory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/page_object_pattern/tests/conftest.py" beforeDir="false" afterPath="$PROJECT_DIR$/page_object_pattern/tests/conftest.py" afterDir="false" />
     </list>
@@ -635,7 +637,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707585542245</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="testsfailed screenshot">
+      <option name="closed" value="true" />
+      <created>1707641406973</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1707641406973</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -650,7 +660,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="input and sending ENTER" />
     <MESSAGE value="selecting_select" />
     <MESSAGE value="checkbox and radio button" />
     <MESSAGE value="checking_image.py" />
@@ -675,7 +684,8 @@
     <MESSAGE value="allure - full report, logs, screenshots, spec" />
     <MESSAGE value="sharing setup method - parent class/inheritance" />
     <MESSAGE value="alternative method of passing the setup method - using conftest" />
-    <option name="LAST_COMMIT_MESSAGE" value="alternative method of passing the setup method - using conftest" />
+    <MESSAGE value="testsfailed screenshot" />
+    <option name="LAST_COMMIT_MESSAGE" value="testsfailed screenshot" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
